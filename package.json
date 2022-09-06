@@ -1,12 +1,18 @@
 {
-  "name": "real-time-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "real-time-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@feathersjs/express": "^4.5.15",
+        "@feathersjs/feathers": "^4.5.15",
+        "@feathersjs/socketio": "^4.5.15",
+        "moment": "^2.29.4"
+    }
 }
