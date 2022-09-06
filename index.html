@@ -86,7 +86,9 @@
 
         <script>
             // Socket.io setup
-            const socket = io("http://localhost:3030");
+            const socket = io(
+                "https://realtime-idea-suggestions.herokuapp.com/"
+            );
 
             // Init feathers app
             const app = feathers();
